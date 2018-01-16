@@ -1,0 +1,12 @@
+dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
+eamodio.gitlens
+emmanuelbeziat.vscode-great-icons
+esbenp.prettier-vscode
+fabiospampinato.vscode-statusbar-debugger
+florinpatrascu.vscode-elixir-snippets
+mjmcloug.vscode-elixir
+msjsdiag.debugger-for-chrome
+sammkj.vscode-elixir-formatter
+wix.vscode-import-cost
+zhuangtongfa.Material-theme
