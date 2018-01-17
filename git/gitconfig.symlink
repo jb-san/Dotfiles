@@ -31,3 +31,11 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
