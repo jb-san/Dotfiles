@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'caskroom/versions'
 tap 'puma/puma'
 
 brew 'ack'
@@ -16,6 +17,8 @@ brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
 brew 'elixir'
+brew 'git-flow'
+brew 'watchman'
 
 cask '1password'
 cask 'visual-studio-code'
@@ -32,3 +35,4 @@ cask 'backblaze'
 cask 'little-snitch'
 cask 'iterm2'
 cask 'dash'
+cask 'caskroom/versions/docker-edge'
