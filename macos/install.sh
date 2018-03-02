@@ -5,3 +5,6 @@
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
+
+# install operator font
+find `pwd` \( -name "*.otf" \) | while read font; do cp "${font}" ~/Library/Fonts/; done
