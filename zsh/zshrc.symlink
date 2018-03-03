@@ -75,12 +75,12 @@ load-nvmrc() {
     nvm use default
   fi
 }
+
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# prompt stuff
-autoload -U promptinit; promptinit
-prompt pure
+# set prompt
+antigen theme pure
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
