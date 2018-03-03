@@ -5,6 +5,7 @@ tap 'caskroom/versions'
 tap 'puma/puma'
 
 brew 'ack'
+brew 'zsh'
 brew 'coreutils'
 brew 'grc'
 brew 'libgit2'
