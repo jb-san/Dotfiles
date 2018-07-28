@@ -17,6 +17,3 @@ find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 # echo "› run configure"
 # find the installers and run them iteratively
 # find . -name install.sh | while read installer ; do zsh -c "${installer}" ; done
-
-echo "› set shell to zsh"
-chsh -s /usr/local/bin/zsh
