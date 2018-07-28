@@ -1,10 +1,20 @@
-antigen use oh-my-zsh
-antigen bundle git
-antigen bundle git-flow
-antigen bundle command-not-found
 export NVM_LAZY_LOAD=true
 export NVM_NO_USE=true
 export NVM_AUTO_USE=true
-antigen bundle lukechilds/zsh-nvm
+
+antigen use oh-my-zsh
+
+antigen bundles <<EOBUNDLES
+  git
+  git-flow
+  command-not-found
+  docker
+  lukechilds/zsh-nvm
+  zsh-users/zsh-completions
+  zsh-users/zsh-history-substring-search
+  felixr/docker-zsh-completion
+EOBUNDLES
+
 antigen theme avit
+
 antigen apply
