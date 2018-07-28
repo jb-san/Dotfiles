@@ -55,28 +55,6 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
-###############################################################################
-# Antigen
-###############################################################################
-# Load the oh-my-zsh's library.
-antigen use oh-my-zsh
-
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
-antigen bundle command-not-found
-
-# Syntax highlighting bundle.
-# antigen bundle zsh-users/zsh-syntax-highlighting
-export NVM_LAZY_LOAD=true
-export NVM_NO_USE=true
-export NVM_AUTO_USE=true
-antigen bundle lukechilds/zsh-nvm
-
-# Load the theme.
-antigen theme https://github.com/jb-san/purified.zsh-theme.git
-
-# Tell Antigen that you're done.
-antigen apply
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
