@@ -1,7 +1,4 @@
-# speed up nvm
-export NVM_LAZY_LOAD=true
-export NVM_NO_USE=true
-export NVM_AUTO_USE=true
+
 
 export PATH=/usr/local/share/npm/bin:$PATH
 
@@ -40,21 +37,26 @@ autoload -U compinit
 compinit
 
 ###############################################################################
-# Improved ctrl+r search 
+# Antigen
 ###############################################################################
 antigen use oh-my-zsh
-antigen bundles <<EOBUNDLES
-  git
-  git-flow
-  command-not-found
-  lukechilds/zsh-nvm
-  zsh-users/zsh-history-substring-search
-EOBUNDLES
+antigen bundle git
+antigen bundle git-flow
+antigen bundle command-not-found
+# speed up nvm
+export NVM_LAZY_LOAD=true
+export NVM_NO_USE=true
+export NVM_AUTO_USE=true
+antigen bundle lukechilds/zsh-nvm
+antigen bundle zsh-users/zsh-history-substring-search
 
 antigen theme avit
 
 antigen apply
+
+###############################################################################
 # load every completion after autocomplete loads
+###############################################################################
 for file in ${(M)config_files:#*/completion.zsh}
 do
   source $file
