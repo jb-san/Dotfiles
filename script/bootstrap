@@ -185,4 +185,6 @@ echo '  - Hazel'
 echo '  - IStat Menu'
 echo '  - Little Snitch'
 echo '  - Sketch'
+echo ''
+echo '5. Add swedish language keyboard'
 
