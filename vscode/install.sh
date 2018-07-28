@@ -11,4 +11,4 @@
 #     code --install-extension "${name}"
 # done < "extensions.txt"
 
-code --install-extension Shan.code-settings-sync
+sudo code --install-extension Shan.code-settings-sync
