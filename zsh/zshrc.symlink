@@ -39,8 +39,21 @@ done
 autoload -U compinit
 compinit
 
-# initialize antigen with antigenrc file
-antigen init ~/.antigenrc
+###############################################################################
+# Improved ctrl+r search 
+###############################################################################
+antigen use oh-my-zsh
+antigen bundles <<EOBUNDLES
+  git
+  git-flow
+  command-not-found
+  lukechilds/zsh-nvm
+  zsh-users/zsh-history-substring-search
+EOBUNDLES
+
+antigen theme avit
+
+antigen apply
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
 do
