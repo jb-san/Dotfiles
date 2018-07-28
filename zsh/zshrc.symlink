@@ -30,12 +30,12 @@ do
   source $file
 done
 
-# initialize antigen with antigenrc file
-antigen init ~/.antigenrc
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
 
+# initialize antigen with antigenrc file
+antigen init ~/.antigenrc
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
 do
