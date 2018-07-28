@@ -154,3 +154,22 @@ fi
 
 echo ''
 echo '  All installed!'
+
+
+echo '############################################################################'
+echo '# Post Bootstrap instructions'
+echo '############################################################################'
+echo '1. Setup and login to Dropbox'
+echo '2. Run little snitch setup'
+echo '  /usr/local/Caskroom/little-snitch/4.1.2/LittleSnitch-4.1.2.dmg/Little Snitch Installer.app'
+echo '2. Register licenses for applications'
+echo '  - 1Password'
+echo '  - Sketch'
+echo '  - Airflow'
+echo '  - Better Touch Tool'
+echo '  - Dash'
+echo '  - Hazel'
+echo '  - IStat Menu'
+echo '  - Little Snitch'
+echo '  - Sketch'
+
