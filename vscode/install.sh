@@ -6,7 +6,9 @@
 # that are listed in extensions.txt, and symlinks the settings and keybindings
 
 # Install extensions
-while read -r name
-do
-    code --install-extension "${name}"
-done < "extensions.txt"
+# while read -r name
+# do
+#     code --install-extension "${name}"
+# done < "extensions.txt"
+
+code --install-extension Shan.code-settings-sync
