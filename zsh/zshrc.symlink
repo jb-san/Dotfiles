@@ -44,9 +44,9 @@ antigen bundle git
 antigen bundle git-flow
 antigen bundle command-not-found
 # speed up nvm
-export NVM_LAZY_LOAD=true
-export NVM_NO_USE=true
-export NVM_AUTO_USE=true
+# export NVM_LAZY_LOAD=false
+# export NVM_NO_USE=false
+# export NVM_AUTO_USE=true
 antigen bundle lukechilds/zsh-nvm
 antigen bundle zsh-users/zsh-history-substring-search
 
