@@ -54,6 +54,7 @@ Run this:
 git clone https://github.com/holman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
+chsh -s /usr/local/bin/zsh
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
@@ -71,7 +72,7 @@ this script in `bin/`.
 
 I want this to work for everyone; that means when you clone it down it should
 work for you even though you may not have `rbenv` installed, for example. That
-said, I do use this as *my* dotfiles, so there's a good chance I may break
+said, I do use this as _my_ dotfiles, so there's a good chance I may break
 something if I forget to make a check for a dependency.
 
 If you're brand-new to the project and run into any blockers, please
