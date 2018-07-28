@@ -101,7 +101,7 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme https://github.com/jb-san/purified.zsh-theme.git
 
 # Tell Antigen that you're done.
 antigen apply
