@@ -1,3 +1,8 @@
+# speed up nvm
+export NVM_LAZY_LOAD=true
+export NVM_NO_USE=true
+export NVM_AUTO_USE=true
+
 export PATH=/usr/local/share/npm/bin:$PATH
 
 # shortcut to this dotfiles path is $ZSH
