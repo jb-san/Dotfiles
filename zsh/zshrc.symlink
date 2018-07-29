@@ -1,6 +1,6 @@
 
 
-export PATH=/usr/local/share/npm/bin:$PATH
+# export PATH=/usr/local/share/npm/bin:$PATH
 
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
@@ -40,44 +40,12 @@ compinit
 ###############################################################################
 # Antigen
 ###############################################################################
-# antigen use oh-my-zsh
-# antigen bundle git
-# antigen bundle git-flow
-# antigen bundle command-not-found
-# # speed up nvm
-# export NVM_LAZY_LOAD=false
-# export NVM_NO_USE=false
-# export NVM_AUTO_USE=true
-# antigen bundle lukechilds/zsh-nvm
-# # antigen bundle zsh-users/zsh-history-substring-search
 
-# antigen theme avit
-
-# antigen apply
+export NVM_LAZY_LOAD=true
+export NVM_NO_USE=false
+export NVM_AUTO_USE=true
 antigen init ~/.antigenrc
 
-# place this after nvm initialization!
-# autoload -U add-zsh-hook
-# load-nvmrc() {
-#   local node_version="$(nvm version)"
-#   local nvmrc_path="$(nvm_find_nvmrc)"
-
-#   if [ -n "$nvmrc_path" ]; then
-#     local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-#     if [ "$nvmrc_node_version" = "N/A" ]; then
-#       nvm install
-#     elif [ "$nvmrc_node_version" != "$node_version" ]; then
-#       nvm use
-#     fi
-#   elif [ "$node_version" != "$(nvm version default)" ]; then
-#     echo "Reverting to nvm default version"
-#     nvm use default
-#   fi
-# }
-
-# add-zsh-hook chpwd load-nvmrc
-# load-nvmrc
 ###############################################################################
 # load every completion after autocomplete loads
 ###############################################################################
@@ -104,4 +72,7 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
