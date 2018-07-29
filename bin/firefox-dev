@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+# Opens firefox with devport open
+open -a "FirefoxDeveloperEdition.app" --args --remote-debugging-port=9222

@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+# Opens chrome with devport open
+open -a "Google Chrome.app" --args --remote-debugging-port=9222
