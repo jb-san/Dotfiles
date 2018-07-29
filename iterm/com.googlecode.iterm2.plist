@@ -358,6 +358,8 @@
 	<string>B2CD9319-8BFA-4F92-AAF0-254CF364C2B9</string>
 	<key>DimOnlyText</key>
 	<true/>
+	<key>DisableFullscreenTransparency</key>
+	<false/>
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>EnableProxyIcon</key>
@@ -407,18 +409,20 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>132 161 796 473 0 0 1573 968 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>131 553 585 452 0 0 1920 1178 </string>
+	<string>97 377 570 451 0 0 1573 946 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>710 293 585 452 0 0 1573 945 </string>
+	<string>837 380 570 451 0 0 1573 946 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>801 203 585 452 0 0 1920 1178 </string>
+	<string>801 204 585 451 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>921 292 585 452 0 0 1920 1178 </string>
+	<string>921 293 585 451 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>301 722 585 452 0 0 1920 1178 </string>
+	<string>301 723 585 451 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>477 589 585 452 0 0 1920 1178 </string>
+	<string>477 590 585 451 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
 	<string>593 614 585 452 0 0 1920 1178 </string>
 	<key>New Bookmarks</key>
@@ -637,7 +641,7 @@
 				<real>0.87843137254899994</real>
 			</dict>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1083,7 +1087,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
@@ -1145,6 +1149,8 @@
 			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
+			<key>Use Cursor Guide</key>
+			<false/>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
@@ -1154,9 +1160,9 @@
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
-			<true/>
+			<false/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Working Directory</key>
 			<string>/Users/jb</string>
 		</dict>
