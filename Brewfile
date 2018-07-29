@@ -19,7 +19,7 @@ brew 'wget'
 brew 'youtube-dl'
 brew 'elixir'
 brew 'git-flow'
-brew 'mas'
+# brew 'mas'
 brew 'watchman'
 
 cask '1password'
