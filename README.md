@@ -87,3 +87,29 @@ weight of my changes and tweaks inspired me to finally roll my own. But Ryan's
 dotfiles were an easy way to get into bash customization, and then to jump ship
 to zsh a bit later. A decent amount of the code in these dotfiles stem or are
 inspired from Ryan's original project.
+
+
+
+## Post bootstrap
+
+1. Setup and login to Dropbox
+2. Run little snitch setup
+  `/usr/local/Caskroom/little-snitch/4.1.2/LittleSnitch-4.1.2.dmg/Little Snitch Installer.app`
+
+3. Load Config files for applications
+ - Little snitch
+ - VSCode
+ - IStat menu
+ - iTerm
+ - Better touch tool
+4. Register licenses for applications
+ - 1Password
+ - Sketch
+ - Airflow
+ - Better Touch Tool
+ - Dash
+ - Hazel
+ - IStat Menu
+ - Little Snitch
+ - Sketch
+5. Add swedish language keyboard
