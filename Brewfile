@@ -10,6 +10,7 @@ brew 'coreutils'
 brew 'grc'
 brew 'libgit2'
 brew 'openssl'
+brew 'ncdu'
 # brew 'nvm' installed through lukechilds/zsh-nvm through antigen
 brew 'readline'
 brew 'postgresql'
