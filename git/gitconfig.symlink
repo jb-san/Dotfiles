@@ -39,3 +39,6 @@
 	tool = vscode
 [difftool "vscode"]
 	cmd = "code --wait --diff  "
+[user]
+	name = Jonathan Borg
+	email = jonathan@x3m.io
