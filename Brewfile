@@ -17,7 +17,6 @@ brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
 brew 'elixir'
-brew 'git-flow'
 # brew 'mas'
 brew 'watchman'
 
