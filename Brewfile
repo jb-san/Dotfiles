@@ -9,6 +9,7 @@ brew 'grc'
 brew 'libgit2'
 brew 'openssl'
 brew 'ncdu'
+brew 'deno'
 # brew 'nvm' installed through lukechilds/zsh-nvm through antigen
 brew 'readline'
 brew 'postgresql'
