@@ -41,4 +41,12 @@
 	cmd = "code --wait --diff  "
 [user]
 	name = Jonathan Borg
-	email = jonathan@x3m.io
+	email = jonathan@aukilabs.com
+
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
