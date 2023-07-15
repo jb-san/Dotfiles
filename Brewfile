@@ -22,6 +22,7 @@ brew 'elixir'
 # brew 'mas'
 brew 'watchman'
 
+cask 'obsidian'
 cask 'linearmouse'
 cask '1password'
 cask 'visual-studio-code'

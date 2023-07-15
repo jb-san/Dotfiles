@@ -4,6 +4,6 @@ antigen bundle git
 antigen bundle zsh-users/zsh-history-substring-search
 # antigen bundle command-not-found
 # antigen bundle lukechilds/zsh-nvm
-antigen theme avit
+antigen theme bira
 
 antigen apply
