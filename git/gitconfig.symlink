@@ -16,7 +16,7 @@
         ui = true
 [core]
 	excludesfile = ~/.gitignore
-        editor = vim
+	editor = cursor
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -50,3 +50,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[pull]
+	rebase = false
